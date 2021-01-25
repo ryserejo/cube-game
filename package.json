@@ -1,0 +1,12 @@
+{
+  "name": "CubeGame",
+  "version": "1.0.0",
+  "description": "A funny cube game!",
+  "main": "App.js",
+  "author": "Rynalde Gabriel Silva Serejo",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
