@@ -1,12 +1,19 @@
 {
-  "name": "CubeGame",
+  "name": "cube-game",
   "version": "1.0.0",
-  "description": "A funny cube game!",
-  "main": "App.js",
-  "author": "Rynalde Gabriel Silva Serejo",
+  "main": "index.js",
+  "repository": "https://github.com/ryserejo/cube-game.git",
+  "author": "ryserejo <rynalde.serejo@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
   "dependencies": {
-    "ejs": "^3.1.5",
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.0.0"
   }
 }
